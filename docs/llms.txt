@@ -1,0 +1,27 @@
+# So Spill
+> AI companion for emotional expression — local-first, private, on-device.
+
+## Quick Facts
+- **Type:** PWA (Progressive Web App)
+- **Tech:** Single HTML + vanilla JS, no framework, no build step
+- **Privacy:** Everything runs on-device. No accounts, no cloud, no servers.
+- **LLM backends:** Ollama, GPT4All, PocketPal, Enclave, Custom (OpenAI-compatible)
+- **Price:** Free tier (3 personalities) · Pro $2.99 one-time (8 personalities + voice)
+- **Domain:** sospill.org
+- **Status:** Launched (June 2026)
+- **Made by:** CoreTech Labs — coretechlabs.app
+
+## Ethics & Safety
+- AI companion only — NOT a therapist, counselor, or medical service
+- Crisis resources built-in (988, Crisis Text Line)
+- Disclaimer shown on first visit
+- In-app report button for inappropriate AI responses
+- Reports → safety@sospill.org
+
+## Key Links
+- Landing: https://sospill.org
+- App: https://sospill.org/app.html
+- Gumroad Pro: https://coretechlabs.gumroad.com/l/spill-pro
+- GitHub Landing Repo: https://github.com/GibGitGib/vent-landing
+- GitHub App Repo: https://github.com/GibGitGib/vent-app (private)
+- Full Description: https://sospill.org/llms-full.txt

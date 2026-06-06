@@ -1,0 +1,52 @@
+# So Spill — Full Description
+
+So Spill is a local-first AI companion PWA for emotional expression. You talk, an on-device LLM responds with a personality you choose. Nothing leaves your device.
+
+## How It Works
+1. Pick a personality — Best Friend, No Judgment, Tough Love, Therapist, Funny, Hype, Zen, or Custom
+2. Talk or type what's on your mind — vent about work, relationships, anxiety, or just your day
+3. The AI responds in character — empathetic listeners, not clinical tools
+4. Everything stays on your phone — no accounts, no cloud, no one listening
+
+## Personalities
+- **Best Friend** — Warm, supportive, like a late-night call with your closest friend
+- **No Judgment** — Listens without opinion. Just space to be honest.
+- **Tough Love** — Direct, honest, pushes you when you need it
+- **Therapist** (Pro) — Reflective, asks questions, helps you untangle
+- **Funny Friend** (Pro) — Lightens the mood with humor
+- **Hype Machine** (Pro) — Celebratory, pumps you up
+- **Zen Master** (Pro) — Calm, grounded, meditative presence
+- **Custom** (Pro) — You write the rules for how your companion responds
+
+## Technical Architecture
+- Single HTML file PWA (no build step, no framework, no npm)
+- Vanilla JavaScript engine: backends, chat, mood detection, memory
+- LLM runs locally via Ollama (desktop), GPT4All (phone), Enclave (phone), or PocketPal
+- Offline-resilient with fallback responses
+- All data in localStorage — no servers, no accounts
+- Pro tier via license key validation (client-side checksum)
+
+## Privacy
+- Zero data collection. Nothing sent to servers.
+- No accounts. No signup. No email required.
+- No analytics tracking.
+- Conversations stored locally in your browser's localStorage (last 40 messages).
+- Clear history = permanently gone.
+
+## Safety & Ethics
+- NOT a therapist, counselor, or medical professional — stated upfront
+- First-run disclaimer modal with crisis resources (988, Crisis Text Line 741741)
+- Crisis detection: auto-shows banner with resources on distress language
+- Report button on every AI response — copies context to clipboard for email to safety@sospill.org
+- Offline fallback ensures no dead-end when LLM is unavailable
+
+## Team
+- **CoreTech Labs** — solo founder studio. "Labs for Software Experiments."
+- Building for shipping speed, not perfection. IP-as-annuity model.
+- Other products: Voice Calculator (voicecalc.app), companion engine SDK for B2C apps
+
+## Links
+- Landing: https://sospill.org
+- Pro ($2.99): https://coretechlabs.gumroad.com/l/spill-pro
+- GitHub (public landing): https://github.com/GibGitGib/vent-landing
+- Company: https://coretechlabs.app
