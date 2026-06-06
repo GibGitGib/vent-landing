@@ -20,7 +20,7 @@
 
 ## Key Links
 - Landing: https://sospill.org
-- App: https://sospill.org/app.html
+- App: https://app.sospill.org
 - Gumroad Pro: https://coretechlabs.gumroad.com/l/spill-pro
 - GitHub Landing Repo: https://github.com/GibGitGib/vent-landing
 - GitHub App Repo: https://github.com/GibGitGib/vent-app (private)
